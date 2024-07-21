@@ -26,5 +26,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           source_repo_path: yorkblansh/devcontainer-template
-          upstream_branch: master # defaults to main
+          upstream_branch: main # defaults to main
         #   pr_labels: <label1>,<label2>[,...] # optional, no default

@@ -58,5 +58,6 @@ jobs:
         uses: AndreasAugustin/actions-template-sync@v2
         with:
           source_repo_path: yorkblansh/devcontainer-template
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           upstream_branch: master # defaults to main
           pr_labels: <label1>,<label2>[,...] # defaults to template_sync

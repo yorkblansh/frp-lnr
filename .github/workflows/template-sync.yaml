@@ -22,9 +22,9 @@ jobs:
         #   submodules: true
 
       - name: actions-template-sync
-        uses: AndreasAugustin/actions-template-sync@v1
+        uses: AndreasAugustin/actions-template-sync@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # github_token: ${{ secrets.GITHUB_TOKEN }}
           source_repo_path: yorkblansh/devcontainer-template
-          upstream_branch: main # defaults to main
+          upstream_branch: master # defaults to main
         #   pr_labels: <label1>,<label2>[,...] # optional, no default

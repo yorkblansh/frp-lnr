@@ -57,7 +57,8 @@ jobs:
       - name: actions-template-sync
         uses: AndreasAugustin/actions-template-sync@v2
         with:
-          source_repo_path: yorkblansh/devcontainer-template/tree/mysql-web-monorepo
+          source_repo_path: yorkblansh/devcontainer-template#mysql-web-monorepo
           github_token: ${{ secrets.GITHUB_TOKEN }}
           upstream_branch: main # defaults to main
+
           pr_labels: <label1>,<label2>[,...] # defaults to template_sync
